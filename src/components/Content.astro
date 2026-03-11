@@ -1,0 +1,219 @@
+<section class="section">
+    <div class="section-header fade-in">
+        <!-- <span class="section-number">03</span> -->
+        <h2>Agentic v1.0</h2>
+    </div>
+    <div class="section-content">
+        <div class="content-main fade-in" style="max-width: 800px;">
+            <p class="large-text">
+                The latest release transforms PentestGPT from an interactive
+                assistant into a fully autonomous penetration testing agent.
+            </p>
+            <p style="margin-bottom: 32px;">
+                Unlike the legacy version that required manual input at each
+                step, the new agentic pipeline operates end-to-end—from initial
+                reconnaissance to flag capture—with minimal human intervention.
+            </p>
+        </div>
+        <div
+            class="capabilities-grid fade-in"
+            style="grid-template-columns: repeat(3, 1fr);"
+        >
+            <div class="capability scale-in stagger-1">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ ◈◈◈ │
+│ ─►─ │
+│ ◈◈◈ │
+└─────┘</pre>
+                </div>
+                <h3>Autonomous Agent</h3>
+                <p>
+                    Agentic pipeline that plans, executes, and adapts without
+                    step-by-step guidance.
+                </p>
+            </div>
+            <div class="capability scale-in stagger-2">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ ▣▣▣ │
+│ ┌─┐ │
+│ └─┘ │
+└─────┘</pre>
+                </div>
+                <h3>Docker-First</h3>
+                <p>
+                    Isolated environment with 20+ security tools pre-installed
+                    and ready to use.
+                </p>
+            </div>
+            <div class="capability scale-in stagger-3">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ ◀▶  │
+│ ─── │
+│ ═══ │
+└─────┘</pre>
+                </div>
+                <h3>Session Persistence</h3>
+                <p>
+                    Save and resume testing sessions—pick up exactly where you
+                    left off.
+                </p>
+            </div>
+        </div>
+        <div
+            class="code-block fade-in"
+            style="max-width: 800px; margin-top: 40px;"
+        >
+            <div class="code-header">
+                <span class="code-dot"></span>
+                <span class="code-dot"></span>
+                <span class="code-dot"></span>
+                <span class="code-title">quickstart.sh</span>
+            </div>
+            <pre
+                class="code-content"><span class="fg-dim"># Clone and build</span>
+git clone --recurse-submodules https://github.com/GreyDGL/PentestGPT.git
+cd PentestGPT && make install
+
+<span class="fg-dim"># Configure and connect</span>
+make config && make connect
+
+<span class="fg-dim"># Start autonomous testing</span>
+pentestgpt --target 10.10.11.234</pre>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-header fade-in">
+        <span class="section-number">04</span>
+        <h2>// Capabilities</h2>
+    </div>
+    <div class="section-content">
+        <div class="capabilities-grid">
+            <div class="capability scale-in stagger-1">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ ◉◉◉ │
+│ ─── │
+│ === │
+└─────┘</pre>
+                </div>
+                <h3>Reconnaissance</h3>
+                <p>
+                    Automated target discovery, port scanning, and service
+                    enumeration with intelligent prioritization.
+                </p>
+            </div>
+            <div class="capability scale-in stagger-2">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ !!! │
+│ ███ │
+│ ░░░ │
+└─────┘</pre>
+                </div>
+                <h3>Vuln Analysis</h3>
+                <p>
+                    AI-powered identification and assessment of security
+                    vulnerabilities across multiple attack surfaces.
+                </p>
+            </div>
+            <div class="capability scale-in stagger-3">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ >>_ │
+│ $:~ │
+│ #── │
+└─────┘</pre>
+                </div>
+                <h3>Exploitation</h3>
+                <p>
+                    Context-aware exploit selection with intelligent payload
+                    generation and execution strategies.
+                </p>
+            </div>
+            <div class="capability scale-in stagger-4">
+                <div class="capability-icon">
+                    <pre>┌─────┐
+│ ↑↑↑ │
+│root │
+│ ═══ │
+└─────┘</pre>
+                </div>
+                <h3>Post-Exploit</h3>
+                <p>
+                    Privilege escalation, lateral movement, and comprehensive
+                    system access techniques.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-header fade-in">
+        <span class="section-number">05</span>
+        <h2>// Results</h2>
+    </div>
+    <div class="section-content">
+        <div class="results-table fade-in">
+            <div class="table-row table-header">
+                <span>Model</span>
+                <span>Task Completion</span>
+                <span>Improvement</span>
+            </div>
+            <div class="table-row">
+                <span>GPT-3.5 (baseline)</span>
+                <span>35%</span>
+                <span class="dim">—</span>
+            </div>
+            <div class="table-row">
+                <span>GPT-4</span>
+                <span>47%</span>
+                <span>+34.3%</span>
+            </div>
+            <div class="table-row highlight">
+                <span>PentestGPT</span>
+                <span>80%</span>
+                <span class="accent">+228.6%</span>
+            </div>
+        </div>
+        <p class="results-note fade-in">
+            Evaluated on real-world penetration testing targets including
+            HackTheBox machines and CTF challenges across varying difficulty
+            levels.
+        </p>
+    </div>
+</section>
+
+<section class="cta fade-in">
+    <pre
+        class="cta-ascii">
+    ┌──────────────────────────────────────┐
+    │                                      │
+    │   $ pentestgpt --init                │
+    │   [+] Loading modules...             │
+    │   [+] Ready for autonomous testing   │
+    │                                      │
+    └──────────────────────────────────────┘</pre>
+    <h2>Get Started</h2>
+    <p>Open source and available now.</p>
+</section>
+
+
+<style>
+    .section{
+        margin:8px;
+        padding:5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .section-header{
+        display: flex;
+        text-align: start;
+    }
+</style>
